@@ -1,14 +1,11 @@
 {
   "name": "somewebpacktemplate",
   "version": "1.0.0",
-  "homepage": "https://izofiya.github.io/PizzaApp",
   "description": "My template",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production",
-    "deploy": "npm run build && gh-pages -d dist"
-    
+    "build": "webpack --mode production"
   },
   "author": "Zoya",
   "license": "MIT",
@@ -22,7 +19,6 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1",
-    "webpack-dev-server": "^3.3.1",
-    "gh-pages": "^2.0.1"
+    "webpack-dev-server": "^3.3.1"
   }
 }
